@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello!</title>
+		<style>
+			body {
+				background-color: #33cc33;
+				font-family: 'Helvetica';
+			}
+
+			.container {
+				width: 1000px;
+				background-color: #fff;
+				border: 10px solid #000;
+				margin-left: auto;
+				margin-right: auto;
+				height: 1100px;
+			}
+
+			.content {
+				width: 900px;
+				padding: 20px;
+			}
+
+			p {	
+				line-height: 1.5em;
+				font-size: 14pt;
+			}
+			
+			img {
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 5px;
+			}
+			h1 {
+				font-size:	50px;
+			}
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: #333;
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+			  background-color: #DE8D00;
+			}
+
+			a:active {
+			  background-color: #EBB014;
+			}
+			table, th, td {
+				border-bottom: 			1px solid #DDD;
+				text-align:				center;
+			}
+			table {
+				border-collapse:		collapse;
+				margin-left:			50px;
+			}
+			tr:nth-child(even) {
+				background-color:		#DDD;
+			}
+			tr:nth-child(odd) {
+				background-color:		#EEE;
+			}
+			th, td {
+				padding:				10px;
+			}
+			th {
+				background-color: 		black;
+				color:					white;
+			}
+			td.math {
+				width:					300px;
+				height:					100px;
+			}
+			td:hover.math	{
+				background-image:		url('Images/math.jfif');
+				background-size:		cover;
+				background-position:	center;
+				color:					White;
+			}
+			td.science {
+				width:					300px;
+				height:					100px;
+			}
+			td:hover.science {
+				background-image:		url('Images/science.jpg');
+				background-size:		cover;
+				background-position:	center;
+				color:					Black;
+			}
+			td.bjj {
+				width:					300px;
+				height:					100px;
+			}
+			td:hover.bjj {
+				background-image:		url('Images/sports.jpg');
+				background-size:		cover;
+				background-position:	center;
+				color:					White;
+			}
+			td.knee {
+				width:					300px;
+				height:					100px;
+			}
+			td:hover.knee {
+				background-image:		url('Images/Knee.jfif');
+				background-size:		cover;
+				background-position:	center;
+				color:					Black;
+			}
+			td.English {
+				width:					300px;
+				height:					100px;
+			}
+			td:hover.English {
+				background-image:		url('Images/English.jfif');
+				background-size:		cover;
+				background-position:	center;
+				color:					Black;
+			}
+			td.dance {
+				width:					300px;
+				height:					100px;
+			}
+			td:hover.dance {
+				background-image:		url('Images/DAnce.jpg');
+				background-size:		cover;
+				background-position:	center;
+				color:					white;
+			}
+		</style>
+	</head>
+	
+	<body>
+
+	<div class="container">	
+			<ul>
+			  <li><a href="Menus.html">Hello!</a></li>
+			  <li><a href="Steve.html">About me</a></li>
+			</ul>
+		<div class="content">
+			<h1>Questions about me</h1>
+			<table>
+				<tr>
+				<th>Things I</th><th>#1</th><th>#2</th><th>#3</th>
+				</tr>
+				<tr>
+				<td>Like:</td><td  class="bjj">Brazilian Jiu Jitsu</td><td class="math">Math</td><td class="science">Science</td>
+				</tr>
+				<tr>
+				<td>Hate:</td><td class="knee">Knee Injuries</td><td class="dance">Dancing for PE</td><td class="English">English</td>
+				</tr>
+			</table>
+			<h1>Cool Image</h1>
+			<br />
+			<img src="Images/BJJ.jpg" height="400" width="400">
+		</div>
+	</div>
+
+	</body>
+</html>
